@@ -6,7 +6,7 @@
 
   <div class="project-view">
     {% for js in page.scripts %}
-      <script type="text/javascript" src="{{ js }}"></script>
+      <script type="text/javascript" src="/{{ page.collection }}/{{ js }}"></script>
     {% endfor %}
   </div>
 </article>

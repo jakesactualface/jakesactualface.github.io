@@ -2,23 +2,28 @@
 layout: default
 ---
 
-<div class="projects">
+<table class="projects">
   {% for project in site.projects %}
-  <article class="project">
-    <a href="{{ site.baseurl }}{{ project.url }}">
-      <h1>{{ project.title }}</h1>
-
-      <div class="project-container">
-        <div class="project-image">
-          <img src="{{ project.image }}" , alt="{{ project.title }}" , width="150" , height="150" />
-        </div>
-
-        <div class="project-description">
+  <tr>
+    <td colspan="2">
+      <a class="project-anchor" href="{{ site.baseurl }}{{ project.url }}">
+        <h1>{{ project.title }}</h1>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td class="project-image">
+      <a class="project-anchor" href="{{ site.baseurl }}{{ project.url }}">
+        <img src="{{ project.image }}" , alt="{{ project.title }}" , width="150" , height="150" />
+      </a>
+    </td>
+    <td class="project-description">
+      <a class="project-anchor" href="{{ site.baseurl }}{{ project.url }}">
+        <div>
           {{ project.description }}
         </div>
-      </div>
-    </a>
-
-  </article>
+      </a>
+    </td>
+  </t>
   {% endfor %}
-</div>
+</table>

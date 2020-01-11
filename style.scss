@@ -275,12 +275,15 @@ nav {
 // .projects
 //
 
-.projects > .project {
-  margin: auto;
+.project-anchor {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
-.project-container {
-  display: flex;
+.project-description {
+  vertical-align: middle;
+  padding: 0rem 2rem;
 }
 
 .project-image {
@@ -288,29 +291,9 @@ nav {
   height: 150px;
 }
 
-.project-description {
-  margin: auto;
-}
-
-.project {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-}
+//
+// common
+//
 
 .wrapper-footer {
   margin-top: 50px;
