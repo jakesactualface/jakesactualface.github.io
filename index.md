@@ -10,7 +10,7 @@ One part javascript playground, two parts time consumption, and four parts learn
 ## Latest Blog Posts
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3 %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
