@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="playground-container">
+  <select id="DropdownIDE" onchange="EmbeddedIDE.src = DropdownIDE.value;">
+    <option selected disabled hidden>Choose your environment</option>
+    <option value="https://repl.it/@jakeface/TemplateCSharp?lite=false">C#</option>
+    <option value="https://repl.it/@jakeface/TemplateC?lite=false">C</option>
+    <option value="https://repl.it/@jakeface/TemplateCPP?lite=false">C++</option>
+    <option value="https://repl.it/@jakeface/TemplateJava?lite=false">Java</option>
+    <option value="https://repl.it/@jakeface/TemplateJavaScript?lite=false">JavaScript</option>
+    <option value="https://repl.it/@jakeface/TemplateHaskell?lite=false">Haskell</option>
+    <option value="https://repl.it/@jakeface/TemplatePython3?lite=false">Python3</option>
+    <option value="https://repl.it/@jakeface/TemplateRust?lite=false">Rust</option>
+  </select>
+  <iframe id="EmbeddedIDE" height="600px" width="100%" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+</div>
