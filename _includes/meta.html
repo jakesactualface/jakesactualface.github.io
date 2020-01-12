@@ -16,3 +16,10 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+
+    <script>
+        function getRandomDescription() {
+            var descriptions = {{ site.cycle-descriptions | jsonify }};
+            return descriptions[Math.floor(Math.random()*descriptions.length)];
+        }
+    </script>
