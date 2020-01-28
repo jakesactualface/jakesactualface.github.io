@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
-### My name is Jake.
+I'm a software engineer, and I teach programming on the side. Mentoring new developers is a new hobby that I've been lucky enough to acquire, and I'm delusional enough to think that some of these experiences would be entertaining to read about.
 
-My first significant coding project was written in 2009. Hilariously, it was a game for the Windows Mobile operating system, as I had no ability to gague when a platform was in the process of dying out. Microsoft had already begun switching their efforts to the Windows Phone family, and my project now exists solely on an ancient HTC Touch in the desk drawer I reserve for items of sentimental value. Regardless of its short existence, the feeling I got when that game first booted on my phone was enough to cement my dreams of becoming a software developer.
+Most of my coding effort has gone toward furthering my career. You won't find many projects online with my name on them, and those that you **can** seek out are probably old enough to be embarrassing. Legacies are hard to build, so I'm leaving that as a problem for Future-Jake.
 
-Since then, I've managed to progress and learn quite a bit as a programmer [citation needed]. I gained experience developing in a few more languages, on a few more platforms, and I collected some neat tricks for solving the problems encountered along the way. I won't claim to have reached any semblance of mastery yet (this IS the first time I've built a website from the ground up, after all), but I've progressed to the point where going after a problem outside of my comfort-zone is no longer nerve-wracking. There's still quite a bit for me to learn, and I still try to finish each project as a better developer than when I started. However, I've managed enough experience that I can be an asset almost anywhere.
+For now, I'd like to focus on helping engineers who are just starting out. If you're picking up your first project and have no idea where to start, I've got your back. If you're suffering from imposter syndrome at work, you're in the right place. And if you're just clicking around on the internet, looking for something vaguely inspirational to brighten up your day, feel free to stick around.
+
+This one's for you guys.
 
 ### Contact me
 
