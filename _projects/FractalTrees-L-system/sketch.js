@@ -41,7 +41,7 @@ function generate()
   }
 
   sentence = nextSentence;
-  createP(sentence);
+  createP(sentence).parent("project-view");
   turtle();
 }
 
@@ -81,12 +81,15 @@ function turtle()
 
 function setup()
 {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
   angle = radians(25);
   background(51);
-  createP(axiom);
-  turtle();
-
+  
   let button = createButton("generate");
+  button.parent("project-view");
   button.mousePressed(generate);
+
+  createP(axiom).parent("project-view");
+  turtle();
 }

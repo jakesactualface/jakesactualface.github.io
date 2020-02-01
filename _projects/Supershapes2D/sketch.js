@@ -12,7 +12,8 @@ let b = 1;
 let osc = 0;
 
 function setup() {
-	createCanvas(400, 400);
+	let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
 }
 
 // creates a supershape, based on formula from Paul Bourke

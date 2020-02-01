@@ -8,7 +8,8 @@ let zoom = 1;
 
 function setup()
 {
-  createCanvas(600, 600);
+  let canvas = createCanvas(600, 600);
+  canvas.parent("project-view");
   blob = new Blob(0, 0, 64);
   for (let i = 0; i < 200; i++) {
     let x = random(-width, width);

@@ -6,7 +6,8 @@ let fireworks = [];
 let gravity;
 
 function setup() {
-  createCanvas(400, 300);
+  let canvas = createCanvas(400, 300);
+  canvas.parent("project-view");
   gravity = createVector(0, 0.2);
   stroke(255);
   background(0);

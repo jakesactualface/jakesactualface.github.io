@@ -12,7 +12,8 @@ let stack = [];
 
 function setup()
 {
-  createCanvas(600, 600);
+  let canvas = createCanvas(600, 600);
+  canvas.parent("project-view");
   cols = floor(width/w);
   rows = floor(height/w);
 

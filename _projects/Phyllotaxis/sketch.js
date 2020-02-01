@@ -7,7 +7,8 @@ const c = 2;
 
 function setup()
 {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
   angleMode(DEGREES);
   colorMode(HSB);
   background(0);

@@ -12,7 +12,8 @@ let finished;
 
 function setup()
 {
-	createCanvas(400, 400);
+	let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
 
 	finished = false;
 

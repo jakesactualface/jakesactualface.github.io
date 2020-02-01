@@ -7,8 +7,10 @@ let slider;
 
 function setup()
 {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
   slider = createSlider(0, PI, PI/4, 0.01);
+  slider.parent("project-view");
 }
 
 function draw()

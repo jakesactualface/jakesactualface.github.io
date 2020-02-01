@@ -10,7 +10,8 @@ let ball;
 let s1, s2;
 
 function setup() {
-	createCanvas(windowWidth * 0.8, windowHeight * 0.6);
+	let canvas = createCanvas(windowWidth * 0.4, windowHeight * 0.6);
+  canvas.parent("project-view");
 
 	p1 = new Paddle(margin, 87, 83);
 	p2 = new Paddle(width - margin, UP_ARROW, DOWN_ARROW);

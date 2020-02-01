@@ -1,6 +1,6 @@
 // formatting UI
 let UIhtml = '<style>';
-UIhtml += '    project_view {';
+UIhtml += '    project-view {';
 UIhtml += '        background: #202028;';
 UIhtml += '        display: flex;';
 UIhtml += '        color: #fff;';

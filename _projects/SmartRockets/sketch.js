@@ -15,7 +15,8 @@ let rw = 200;
 let rh = 10;
 
 function setup() {
-	createCanvas(400, 300);
+	let canvas = createCanvas(400, 300);
+  canvas.parent("project-view");
 	population = new Population();
 	lifeP = createP();
 	target = createVector(width / 2, 50);

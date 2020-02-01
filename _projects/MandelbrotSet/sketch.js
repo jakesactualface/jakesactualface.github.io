@@ -7,11 +7,14 @@ let maxSlider;
 
 function setup()
 {
-  createCanvas(200, 200);
+  let canvas = createCanvas(200, 200);
+  canvas.parent("project-view");
   pixelDensity(1);
 
   minSlider = createSlider(-2.5, 0, -2.5, 0.01);
+  minSlider.parent("project-view");
   maxSlider = createSlider(0, 2.5, 2.5, 0.01);
+  maxSlider.parent("project-view");
 }
 
 function draw()

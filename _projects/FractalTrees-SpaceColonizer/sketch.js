@@ -8,7 +8,8 @@ const min_dist = 10;
 
 function setup()
 {
-  createCanvas(400, 400);
+  let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
   tree = new Tree();
 }
 

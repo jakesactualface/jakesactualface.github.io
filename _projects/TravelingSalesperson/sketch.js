@@ -13,7 +13,8 @@ let recordDistance;
 let bestEver;
 
 function setup() {
-	createCanvas(400, 300);
+	let canvas = createCanvas(400, 300);
+  canvas.parent("project-view");
 
 	// place nodes randomly
 	for (let i = 0; i < totalNodes; i++) {

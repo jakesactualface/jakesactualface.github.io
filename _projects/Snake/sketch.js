@@ -6,7 +6,8 @@ const scale = 20;
 let food;
 
 function setup() {
-	createCanvas(600, 600);
+	let canvas = createCanvas(600, 600);
+  canvas.parent("project-view");
 	snake = new Snake();
 	frameRate(10);
 	pickLocation();

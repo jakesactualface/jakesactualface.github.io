@@ -16,7 +16,8 @@ let flowfield;
 
 function setup()
 {
-  createCanvas(500, 500);
+  let canvas = createCanvas(500, 500);
+  canvas.parent("project-view");
   cols = floor(width / scl);
   rows = floor(height / scl);
   fr = createP('');

@@ -8,7 +8,8 @@ let streams = [];
 
 function setup() {
 	background(0);
-	createCanvas (window.innerWidth, window.innerHeight);
+	let canvas = createCanvas(window.innerWidth / 2, window.innerHeight / 2);
+	canvas.parent("project-view");
 	let x = 0;
 	for (let i = 0; i <= width / symbolSize; i++) {
 		let stream = new Stream();

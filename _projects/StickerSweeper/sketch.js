@@ -11,7 +11,8 @@ let grid;
 let remaining;
 
 function setup() {
-	createCanvas(500, 500);
+	let canvas = createCanvas(500, 500);
+  canvas.parent("project-view");
 
 	gameOver = false;
 	cols = floor(width / wide);

@@ -2,7 +2,7 @@
 // Written by Jake Everhart
 
 let ship;
-let enemies = 8;
+let enemies = 6;
 let score = 0;
 let lossDistance = 60;
 let maxLasers = 5;
@@ -14,7 +14,8 @@ const frameInterval = 60;
 let fCounter = 0;
 
 function setup() {
-	createCanvas(windowWidth * 0.8, windowHeight * 0.8);
+	let canvas = createCanvas(windowWidth * 0.4, windowHeight * 0.8);
+  canvas.parent("project-view");
 	ship = new Ship();
 	initializeInvaders(enemies);
 }
@@ -87,7 +88,7 @@ function draw() {
 
 	// increase number of enemies in formation after player has cleared level
 	if (invaders.length < 1) {
-		enemies += 8;
+		enemies += 6;
 		initializeInvaders(enemies);
 	}
 }
@@ -108,7 +109,7 @@ function initializeInvaders(enemies) {
 	let gridy = 0;
 
 	for (let i = 0; i < enemies; i++) {
-		if (gridx > 7) {
+		if (gridx > 5) {
 			gridx = 0;
 			gridy++;
 		}

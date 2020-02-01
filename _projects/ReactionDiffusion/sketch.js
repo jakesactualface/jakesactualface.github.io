@@ -11,7 +11,8 @@ let feed = 0.055;
 let k = 0.062;
 
 function setup() {
-	createCanvas(200, 200);
+	let canvas = createCanvas(200, 200);
+  canvas.parent("project-view");
 	pixelDensity(1);
 	grid = [];
 	next = [];

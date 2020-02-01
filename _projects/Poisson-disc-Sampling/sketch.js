@@ -12,7 +12,8 @@ let cols;
 let rows;
 
 function setup() {
-	createCanvas(400, 400);
+	let canvas = createCanvas(400, 400);
+  canvas.parent("project-view");
 	background(0);
 	strokeWeight(r * 0.5);
 

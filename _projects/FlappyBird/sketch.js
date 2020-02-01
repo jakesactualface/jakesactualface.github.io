@@ -9,7 +9,8 @@ let finished;
 
 function setup()
 {
-  createCanvas(400, 600);
+  let canvas = createCanvas(400, 600);
+  canvas.parent("project-view");
   bird = new Bird();
   pipes.push(new Pipe());
   score = 0;

@@ -4,7 +4,8 @@
 let cells = [];
 
 function setup() {
-  createCanvas(700, 700);
+  let canvas = createCanvas(700, 700);
+  canvas.parent("project-view");
   cells.push(new Cell());
   cells.push(new Cell());
 }
